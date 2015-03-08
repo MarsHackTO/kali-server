@@ -1,0 +1,10 @@
+{
+    "DB_CONFIG": "mongodb://localhost/kali",
+    "TWILIO": {
+        "SSID": "AC94bfa5ecf2630fc8bc4ec470cb66c539",
+        "AUTH_TOKEN": "db2cd99c273e81935111f98cf3915ee1",
+        "FROM_PHONE_NUMBER": "+16474964502",
+        "URL": "http://twimlbin.com/f2c81c67/raw"
+    },
+    "PORT": "9000"
+}
