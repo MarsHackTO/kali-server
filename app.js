@@ -28,8 +28,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(methodOverride('X-HTTP-Method-Override'));
 
 var account = require(__dirname + '/account.controller');
-app.post('/api/account/update-profile', account.updateProfile);
-app.post('/api/account/make-phone-call', account.makePhoneCall);
+app.get('/api/account/update-profile', account.updateProfile);
+app.get('/api/account/make-phone-call', account.makePhoneCall);
 
 app.listen(config.PORT);
 console.log('Magic happens on port ' + config.PORT);
