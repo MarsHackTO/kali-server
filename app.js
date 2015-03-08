@@ -5,8 +5,21 @@ var methodOverride = require('method-override');
 var config = require('config');
 var mongoose = require('mongoose');
 
-var options = { server: { socketOptions: { keepAlive: 1, connectTimeoutMS: 30000 } },
-    replset: { socketOptions: { keepAlive: 1, connectTimeoutMS : 30000 } } };
+var options = {
+    server: {
+        socketOptions: {
+            keepAlive: 1,
+            connectTimeoutMS: 30000
+        }
+    },
+    replset: {
+        socketOptions: {
+            keepAlive: 1,
+            connectTimeoutMS: 30000
+        }
+    }
+};
+
 mongoose.connect(config.DB_CONFIG, options);
 
 app.use(bodyParser.json());
