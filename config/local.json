@@ -1,5 +1,5 @@
 {
-    "DB_CONFIG": "mongodb://localhost/kali",
+    "DB_CONFIG": "mongodb://heroku_app34698689:tgfsmsqbf192sqpeseo8j0br8r@ds053251.mongolab.com:53251/heroku_app34698689",
     "TWILIO": {
         "SSID": "AC94bfa5ecf2630fc8bc4ec470cb66c539",
         "AUTH_TOKEN": "db2cd99c273e81935111f98cf3915ee1",
